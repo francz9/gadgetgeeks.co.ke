@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "model": "AX1-2026",
+    "name": "Aether X1 Wireless Earbuds",
+    "category": "Audio",
+    "price": 7800,
+    "stock": 42,
+    "spec": "ANC · 30h battery · USB-C",
+    "description": "Active noise cancelling earbuds with 30-hour combined battery life."
+  },
+  {
+    "id": "p2",
+    "model": "VF-65GAN",
+    "name": "Voltframe 65W GaN Charger",
+    "category": "Power",
+    "price": 4500,
+    "stock": 88,
+    "spec": "65W · 3-port · GaN",
+    "description": "Compact gallium-nitride fast charger, three ports, laptop-capable."
+  },
+  {
+    "id": "p3",
+    "model": "NM-10K",
+    "name": "Nomad 10,000mAh Power Bank",
+    "category": "Power",
+    "price": 3600,
+    "stock": 63,
+    "spec": "10000mAh · PD 20W",
+    "description": "Slim power bank with pass-through fast charging."
+  },
+  {
+    "id": "p4",
+    "model": "HC-27-4K",
+    "name": "Halcyon 27\" 4K Monitor",
+    "category": "Displays",
+    "price": 45000,
+    "stock": 14,
+    "spec": "27in · 4K · 144Hz",
+    "description": "27-inch 4K display with 144Hz refresh for work and play."
+  },
+  {
+    "id": "p5",
+    "model": "KS-TKL-RGB",
+    "name": "Kestrel Mechanical Keyboard",
+    "category": "Peripherals",
+    "price": 11500,
+    "stock": 31,
+    "spec": "Hot-swap · TKL · RGB",
+    "description": "Tenkeyless mechanical keyboard with hot-swappable switches."
+  },
+  {
+    "id": "p6",
+    "model": "DW-BT-360",
+    "name": "Driftwood Bluetooth Speaker",
+    "category": "Audio",
+    "price": 5800,
+    "stock": 55,
+    "spec": "360° sound · IPX6",
+    "description": "Water-resistant speaker with 360-degree sound and 12h battery."
+  },
+  {
+    "id": "p7",
+    "model": "PL-M4",
+    "name": "Pulse Fitness Band M4",
+    "category": "Wearables",
+    "price": 5200,
+    "stock": 70,
+    "spec": "HR + SpO2 · 7-day",
+    "description": "Fitness band with heart rate, SpO2, and a 7-day battery."
+  },
+  {
+    "id": "p8",
+    "model": "SH-PLUG-2P",
+    "name": "Shelter Smart Plug (2-Pack)",
+    "category": "Smart Home",
+    "price": 3000,
+    "stock": 96,
+    "spec": "Wi-Fi · schedule · voice",
+    "description": "Wi-Fi smart plugs with scheduling and voice assistant support."
+  }
+]

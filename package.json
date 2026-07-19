@@ -1,0 +1,9 @@
+{
+  "name": "gadgetgeeks-electro-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electronics storefront with Paystack checkout (card + M-Pesa mobile money).",
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  }
+}

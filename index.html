@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GadgetGeeks — Electronics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="trace-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">◆</span>
+      <span class="brand-name">GADGETGEEKS</span>
+    </div>
+    <nav class="cat-nav" id="catNav"></nav>
+    <button class="cart-btn" id="cartToggle" aria-label="Open cart">
+      CART <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-model">MODEL // GG‑STORE‑01</div>
+    <h1>Components for<br />how you actually work.</h1>
+    <p class="hero-sub">Audio, power, displays, and peripherals — spec-checked and shipped fast across Kenya.</p>
+  </section>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main class="catalog" id="catalog" aria-live="polite">
+    <!-- product cards render here -->
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header">
+      <span>YOUR CART</span>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cartTotal">$0.00</span>
+      </div>
+      <div class="pay-method" id="payMethod">
+        <button class="pm-btn active" data-method="card">CARD</button>
+        <button class="pm-btn" data-method="mpesa">M-PESA</button>
+      </div>
+      <div class="field-wrap">
+        <input id="checkoutEmail" class="field-input" placeholder="you@email.com" type="email" />
+        <div class="field-hint">Your receipt goes here</div>
+      </div>
+      <div class="mpesa-phone-wrap" id="mpesaPhoneWrap" hidden>
+        <input id="mpesaPhone" class="field-input" placeholder="2547XXXXXXXX" inputmode="numeric" />
+        <div class="field-hint">Safaricom number that will receive the payment prompt</div>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn">CHECKOUT →</button>
+      <div class="cart-note" id="cartNote">Secure payment via Stripe Checkout</div>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <footer class="site-footer">
+    <span>GADGETGEEKS — a Claude-built storefront prototype</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
